@@ -12,6 +12,9 @@ class TestTddCalculatorApp < Minitest::Test
     def test_assert_that_20_plus_10_equals_30
        assert_equal(30, addition(20, 10))
     end
+    def test_assert_that_100_plus_100_equals_200
+       assert_equal(5, addition(100, 100))
+    end
     def test_assert_that_20_minus_5_equals_15
        assert_equal(15, subtraction(20, 5))
     end
