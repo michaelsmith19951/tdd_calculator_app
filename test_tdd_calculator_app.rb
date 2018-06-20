@@ -30,4 +30,7 @@ class TestTddCalculatorApp < Minitest::Test
     def test_assert_that_90_minus_90_equals_0
        assert_equal(0, subtraction(90, 90))
     end
+    def test_assert_that_10_times_5_equals_50
+       assert_equal(0, multiplication(10, 5))
+    end
 end

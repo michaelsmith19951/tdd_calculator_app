@@ -1,9 +1,14 @@
-# Performs addition on any two integers that the user inputs
+# Performs addition on any two integers 
 	def addition (first_number, second_number)
 first_number + second_number
 end
 
-# Performs subtraction on any two integers that the user inputs
+# Performs subtraction on any two integers 
 	def subtraction (first_number, second_number)
 first_number - second_number
+end
+
+# Performs multiplication on any two integers 
+	def multiplication (first_number, second_number)
+first_number * second_number
 end
