@@ -22,6 +22,6 @@ class TestTddCalculatorApp < Minitest::Test
        assert_equal(15, subtraction(20, 5))
     end
     def test_assert_that_500_minus_200_equals_300
-       assert_equal(-999, subtraction(500, 200))
+       assert_equal(300, subtraction(500, 200))
     end
 end
