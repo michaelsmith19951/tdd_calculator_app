@@ -28,6 +28,6 @@ class TestTddCalculatorApp < Minitest::Test
        assert_equal(850, subtraction(900, 50))
     end
     def test_assert_that_90_minus_90_equals_0
-       assert_equal(-20, subtraction(90, 90))
+       assert_equal(0, subtraction(90, 90))
     end
 end
