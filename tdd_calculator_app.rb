@@ -3,4 +3,7 @@
 first_number + second_number
 end
 
-
+# Performs subtraction on any two integers that the user inputs
+	def subtraction (first_number, second_number)
+first_number - second_number
+end
