@@ -7,6 +7,6 @@ require_relative "tdd_calculator_app.rb"
 class TestTddCalculatorApp < Minitest::Test
 
     def test_assert_that_1_plus_4_equals_5
-       assert_equal(8, addition(1,4))
+       assert_equal(5, addition(1, 4))
     end
 end
