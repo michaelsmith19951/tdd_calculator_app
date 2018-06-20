@@ -42,4 +42,7 @@ class TestTddCalculatorApp < Minitest::Test
      def test_assert_that_2_times_8_equals_16
        assert_equal(16, multiplication(2, 8))
     end
+    def test_assert_that_10_divided_by_5_equals_2
+       assert_equal(6, division(10, 5))
+    end
 end
