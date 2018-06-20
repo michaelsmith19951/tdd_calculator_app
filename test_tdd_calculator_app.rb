@@ -36,4 +36,7 @@ class TestTddCalculatorApp < Minitest::Test
      def test_assert_that_5_times_9_equals_45
        assert_equal(45, multiplication(5, 9))
     end
+     def test_assert_that_100_times_8_equals_800
+       assert_equal(1, multiplication(100, 8))
+    end
 end
