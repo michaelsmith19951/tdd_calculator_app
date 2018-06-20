@@ -49,6 +49,6 @@ class TestTddCalculatorApp < Minitest::Test
        assert_equal(5, division(50, 10))
     end
     def test_assert_that_25_divided_by_5_equals_5
-       assert_equal(80, division(25, 5))
+       assert_equal(5, division(25, 5))
     end
 end
