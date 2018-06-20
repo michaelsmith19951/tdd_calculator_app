@@ -40,6 +40,6 @@ class TestTddCalculatorApp < Minitest::Test
        assert_equal(800, multiplication(100, 8))
     end
      def test_assert_that_2_times_8_equals_16
-       assert_equal(10, multiplication(2, 8))
+       assert_equal(16, multiplication(2, 8))
     end
 end
